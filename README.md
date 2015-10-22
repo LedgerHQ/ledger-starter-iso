@@ -118,3 +118,11 @@ pip install pretty-table
 pip install ecdsa
 pip install blessings
 ```
+
+# Writing changes
+SliTaz comes with a handy tool allowing you to save your changes to a *rootfs.gz* file (for instance).
+Just run:
+```
+tazusb writefs gzip
+```
+And follow the instructions. You will then need to move the /rootfs.gz file to your flash drive (and replace the old one).
